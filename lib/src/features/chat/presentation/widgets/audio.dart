@@ -1,5 +1,6 @@
 import 'package:audio_waveforms/audio_waveforms.dart';
 import 'package:buzz/src/features/chat/presentation/provider/viewmodels.dart';
+import 'package:buzz/src/features/dummy_data.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -33,7 +34,7 @@ class _VoiceNoteWidgetState extends State<VoiceNoteWidget> {
               mainAxisSize: MainAxisSize.max,
               children: [
                 Text(
-                  chatProvider.formatDuration(chatProvider.recordDuration),
+                  formatDuration(chatProvider.recordDuration),
                   style: const TextStyle(color: Colors.white, fontSize: 16),
                 ),
                 Expanded(

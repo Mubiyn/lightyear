@@ -104,7 +104,6 @@ class _ChatScreenState extends State<ChatScreen> {
                           if (s.isNotEmpty) {
                             chatProvider.sendMessage(
                               s,
-                              chatProvider.listKey,
                             );
                             _messageController.clear();
                           }
@@ -153,7 +152,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     direction: DismissDirection.horizontal,
                     onDismissed: (direction) {
                       if (direction == DismissDirection.startToEnd) {
-                        chatProvider.deleteMessage(message.id, widget.chat.id);
+                        chatProvider.deleteMessage(message.id);
                       }
                     },
                     confirmDismiss: (direction) async {
