@@ -4,12 +4,33 @@ Buzz is a feature-rich chat application built with Flutter. It allows users to s
 
 ## Features
 
-- **Real-Time Messaging**: Send and receive messages instantly.
+- **Real-Time Messaging(Simulated)**: Send and receive messages instantly.
 - **Media Sharing**: Share images, videos, audio recordings, and files.
 - **Message Replies**: Reply to specific messages in a chat.
 - **Notifications**: Receive notifications for new messages.
 - **Audio Recording**: Record and send audio messages.
 - **Cross-Platform**: Works on both Android and iOS.
+
+
+### 📸 Screenshots
+
+#### Chat List Screen
+![Initial Page](docs/1.png)
+![Dark  Mode](docs/2.png)
+
+#### Chat Screen
+![chat](docs/3.png)
+![Record](docs/4.png)
+![Play](docs/5.png)
+![Attach](docs/6.png)
+![Choose](docs/7.png)
+![Preview](docs/8.png)
+![Attached](docs/9.png)
+
+
+
+
+
 
 ## Technologies Used
 
